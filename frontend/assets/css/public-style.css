@@ -1,0 +1,67 @@
+#globtrade-public-requests .request-card {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#globtrade-public-requests .request-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+#globtrade-public-requests .request-card-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+#globtrade-public-requests .request-card-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+#globtrade-public-requests .request-card-meta {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+#globtrade-public-requests .request-card-footer {
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#globtrade-public-requests .request-card-budget {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary, #961327);
+}
+
+#globtrade-public-requests .submit-offer-btn {
+    background-color: var(--primary, #961327);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+#globtrade-public-requests .submit-offer-btn:hover {
+    background-color: var(--primary-dark, #7d1020);
+}
